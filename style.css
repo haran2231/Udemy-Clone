@@ -15,6 +15,10 @@ body {
     justify-content: space-between;
     border-bottom: solid black 1px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
 }
 
 .navbar__s1__title{
@@ -47,6 +51,20 @@ body {
     align-items: center;
 }
 
+/* my learning popup  */
+
+.mylearning{
+    position: relative;
+}
+
+.mylearning__popup{
+    position: absolute;
+    background-color: #fff;
+    border: solid black 1px;
+    width: 100px;
+    top: 20px;
+}
+
 .categories{
     display: flex;
     padding: 10px;
@@ -61,8 +79,22 @@ body {
     border-radius: 30px;
 }
 
+.banner{
+ position: relative;
+}
+
 .banner img{
     width: 100%;
+}
+
+.banner__box {
+    width: 30%;
+    background-color: #fff;
+    left: 50px;
+    position: absolute;
+    top: 90px;
+    border: solid black 2px;
+    padding: 2%;
 }
 
 .recommended{
