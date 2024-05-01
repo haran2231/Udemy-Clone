@@ -90,6 +90,7 @@ body {
 
 .categories p:hover{
     transition: 1s;
+    
     background-color: transparent;
     color: black;
     border: solid #a435f0 1px;
